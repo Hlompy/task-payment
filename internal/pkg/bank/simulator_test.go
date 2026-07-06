@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/evt/recruitment-task-payment-gateway/internal/pkg/bank"
+	"github.com/Hlompy/task-payment/internal/pkg/bank"
 )
 
 func TestSimulator_Authorized(t *testing.T) {
