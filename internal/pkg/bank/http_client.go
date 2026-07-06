@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/metrics"
+	"github.com/Hlompy/task-payment/internal/app/metrics"
 )
 
 // Circuit breaker configuration.
