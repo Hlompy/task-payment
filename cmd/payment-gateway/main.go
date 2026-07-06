@@ -16,13 +16,13 @@ import (
 	"github.com/uptrace/bun/dialect/pgdialect"
 	"github.com/uptrace/bun/driver/pgdriver"
 
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/config"
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/metrics"
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/repository"
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/repository/models"
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/services"
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/transport/httpserver"
-	"github.com/evt/recruitment-task-payment-gateway/internal/pkg/bank"
+	"github.com/Hlompy/task-payment/internal/app/config"
+	"github.com/Hlompy/task-payment/internal/app/metrics"
+	"github.com/Hlompy/task-payment/internal/app/repository"
+	"github.com/Hlompy/task-payment/internal/app/repository/models"
+	"github.com/Hlompy/task-payment/internal/app/services"
+	"github.com/Hlompy/task-payment/internal/app/transport/httpserver"
+	"github.com/Hlompy/task-payment/internal/pkg/bank"
 )
 
 const defaultShutdownTimeout = 10 * time.Second
