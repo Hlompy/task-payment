@@ -14,10 +14,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/common/server"
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/domain"
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/transport/httpserver"
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/transport/httpserver/mocks"
+	"github.com/Hlompy/task-payment/internal/app/common/server"
+	"github.com/Hlompy/task-payment/internal/app/domain"
+	"github.com/Hlompy/task-payment/internal/app/transport/httpserver"
+	"github.com/Hlompy/task-payment/internal/app/transport/httpserver/mocks"
 )
 
 const testAPIKey = "sk_test_key"
