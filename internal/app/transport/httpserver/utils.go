@@ -9,8 +9,8 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/google/uuid"
 
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/common/server"
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/metrics"
+	"github.com/Hlompy/task-payment/internal/app/common/server"
+	"github.com/Hlompy/task-payment/internal/app/metrics"
 )
 
 func recoveryMiddleware(next http.Handler) http.Handler {
