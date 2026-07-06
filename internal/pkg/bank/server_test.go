@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/evt/recruitment-task-payment-gateway/internal/pkg/bank"
+	"github.com/Hlompy/task-payment/internal/pkg/bank"
 )
 
 func TestHandler_Health(t *testing.T) {
