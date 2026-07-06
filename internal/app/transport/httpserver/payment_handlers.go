@@ -7,8 +7,8 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/common/server"
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/domain"
+	"github.com/Hlompy/task-payment/internal/app/common/server"
+	"github.com/Hlompy/task-payment/internal/app/domain"
 )
 
 type PaymentHandler struct {
