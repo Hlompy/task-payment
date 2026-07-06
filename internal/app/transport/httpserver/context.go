@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/domain"
+	"github.com/Hlompy/task-payment/internal/app/domain"
 )
 
 type contextKey string
