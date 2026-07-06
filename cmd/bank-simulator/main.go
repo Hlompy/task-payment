@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/evt/recruitment-task-payment-gateway/internal/pkg/bank"
+	"github.com/Hlompy/task-payment/internal/pkg/bank"
 )
 
 const defaultReadHeaderTimeout = 10 * time.Second
