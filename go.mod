@@ -1,4 +1,4 @@
-module github.com/evt/recruitment-task-payment-gateway
+module github.com//Hlompy/task-payment
 
 go 1.26.0
 
