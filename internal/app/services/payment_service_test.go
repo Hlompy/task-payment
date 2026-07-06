@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/domain"
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/services"
-	"github.com/evt/recruitment-task-payment-gateway/internal/pkg/bank"
+	"github.com/Hlompy/task-payment/internal/app/domain"
+	"github.com/Hlompy/task-payment/internal/app/services"
+	"github.com/Hlompy/task-payment/internal/pkg/bank"
 )
 
 // --- Mocks ---
