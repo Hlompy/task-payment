@@ -6,9 +6,9 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/domain"
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/metrics"
-	"github.com/evt/recruitment-task-payment-gateway/internal/pkg/bank"
+	"github.com/Hlompy/task-payment/internal/app/domain"
+	"github.com/Hlompy/task-payment/internal/app/metrics"
+	"github.com/Hlompy/task-payment/internal/pkg/bank"
 )
 
 const genericBankFailureReason = "processing_error"
