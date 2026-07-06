@@ -6,8 +6,8 @@ import (
 
 	"github.com/uptrace/bun"
 
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/domain"
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/repository/models"
+	"github.com/Hlompy/task-payment/internal/app/domain"
+	"github.com/Hlompy/task-payment/internal/app/repository/models"
 )
 
 type PaymentEventRepo struct {
