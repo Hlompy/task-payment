@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/metrics"
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/transport/httpserver"
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/transport/httpserver/mocks"
+	"github.com/Hlompy/task-payment/internal/app/metrics"
+	"github.com/Hlompy/task-payment/internal/app/transport/httpserver"
+	"github.com/Hlompy/task-payment/internal/app/transport/httpserver/mocks"
 )
 
 func TestMain(m *testing.M) {
