@@ -3,7 +3,7 @@ package services
 import (
 	"context"
 
-	"github.com/evt/recruitment-task-payment-gateway/internal/app/domain"
+	"github.com/Hlompy/task-payment/internal/app/domain"
 )
 
 type MerchantService struct {
